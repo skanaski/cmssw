@@ -8,7 +8,7 @@ import FWCore.ParameterSet.Config as cms
 # Island BasicCluster producer
 from RecoEcal.EgammaClusterProducers.islandBasicClusters_cfi import *
 # Correction for Island BasicClusters
-from RecoHI.HiEgammaAlgos.HiEgammaEnergyCorrection_cff import *
+from RecoHI.HiEgammaAlgos.HiEgammaBkgSubtraction_cff import *
 # Island SuperCluster producer
 from RecoHI.HiEgammaAlgos.HiIslandSuperClusters_cfi import *
 # Energy scale correction for Island SuperClusters
